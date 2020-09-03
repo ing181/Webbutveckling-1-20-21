@@ -1,0 +1,39 @@
+body {
+}
+
+/* för att undvika redundans (upprepning av koden) skapar
+jag två klasser, "center" och "container" */
+.center {
+  margin: auto; /* margin = avståndet till objekt utanför */
+  width: 50%;  /* halva bredden av föräldra objektet (body) */
+  padding: 10px; /* Avståndet i pixlar från innehållet i "center" till kanten på "center"*/
+}
+
+
+.container {
+
+	background-color:green;
+	display:flex;
+	flex-direction:row; /* "barnobjekten" lägger sig horisontellt */
+	justify-content:center; /* "barnobjekten" tränger ihop sig i mitten */
+	margin:auto; /* Lägger sig i mitten, relativt "body" */
+	
+	
+}
+
+.item {
+
+	background-color:yellow;
+}
+
+.header {
+	background-color:red;
+}
+ /*Om skärmen är bredare än 768 pixlar ändras det som
+ definieras i klassen "container" här ovanför.
+ Då lägger sig "items" under varandra i stället. */
+@media only screen and (max-width: 768px){
+     .container {
+		flex-direction:column;
+	}
+}
