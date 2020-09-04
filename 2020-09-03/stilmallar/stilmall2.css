@@ -6,7 +6,7 @@ jag två klasser, "center" och "container" */
 .center {
   margin: auto; /* margin = avståndet till objekt utanför */
   width: 50%;  /* halva bredden av föräldra objektet (body) */
-  padding: 10px; /* Avståndet i pixlar från innehållet i "center" till kanten på "center"*/
+  padding: 20; /* Avståndet i pixlar från innehållet i "center" till kanten på "center"*/
 }
 
 
@@ -14,11 +14,12 @@ jag två klasser, "center" och "container" */
 
 	background-color:green;
 	display:flex;
-	flex-direction:row; /* "barnobjekten" lägger sig horisontellt */
-	justify-content:center; /* "barnobjekten" tränger ihop sig i mitten */
-	margin:auto; /* Lägger sig i mitten, relativt "body" */
-	
-	
+	flex-direction:row-reverse;
+  /* "barnobjekten" lägger sig horisontellt */
+	justify-content:space-between; /* "barnobjekten" tränger ihop sig i mitten */
+	/* margin:auto; */ /* Lägger sig i mitten, relativt "body" */
+
+
 }
 
 .item {
