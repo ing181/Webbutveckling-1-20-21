@@ -1,0 +1,22 @@
+.container {
+  /* kommentar */
+  width: 600px;
+  height: 600pX;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.subcontainer {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 4px;
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  border-style: solid;
+  border-width: 4px;
+}

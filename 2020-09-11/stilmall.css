@@ -1,0 +1,25 @@
+/* Egendifinierade klasser */
+.container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 1000px;
+  width: 1000px;
+}
+
+.subcontainer {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.item {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+}
+
+/* Bestämmer egenskaper för olika taggar som ingår i html */
+}
