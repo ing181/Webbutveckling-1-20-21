@@ -37,6 +37,8 @@ body {
   background-color: green;
   border-width: 3px;
   border-style: solid;
+  /* Den här fonten finns på din egen server
+     definieras i din egen css-fil "font.css" */
   font-family: SansitaSwashed-VariableFont_wght;
   font-style: italic;
   font-weight: bolder;
@@ -53,6 +55,8 @@ body {
   border-style: solid;
   flex-shrink: 4;
   /*  flex-basis: 25%; */
+  /* fonten laddas ner från Google till
+     användaren. Finns inte på din server */
   font-family: 'Roboto Mono', monospace;
 }
 
