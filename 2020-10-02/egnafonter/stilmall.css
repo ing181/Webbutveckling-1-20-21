@@ -24,7 +24,7 @@ body {
   border-color: #ffff00;
   /*height: 30px;*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* I huvudriktningen (main axis) */
   justify-content: flex-start;
   /* motsvarigheten för 90 gr axeln */
@@ -37,16 +37,23 @@ body {
   background-color: green;
   border-width: 3px;
   border-style: solid;
+  font-family: SansitaSwashed-VariableFont_wght;
+  font-style: italic;
+  font-weight: bolder;
+  font-variant: small-caps;
+  line-height: 30px;
+  font-size: 30px;
 }
 
 .left {
   /*  width: 200px; */
   /*  height: 200px; */
-  background-color: blue;
+  background-color: white;
   border-width: 3px;
   border-style: solid;
   flex-shrink: 4;
   /*  flex-basis: 25%; */
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* ett span element har ingen
