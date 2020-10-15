@@ -1,0 +1,6 @@
+Options +Indexes
+IndexOptions Charset=UTF-8
+IndexOptions FancyIndexing
+IndexOptions FoldersFirst
+IndexOptions NameWidth=*
+ReadmeName .footer.html

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stilmall.css">
+
+    <title>Document Object Model</title>
+    <script>
+      function testScript() {
+        //alert("Du klickade");
+        document.getElementById("textruta").value = "Hittade dig";
+      }
+    </script>
+
+  </head>
+
+  <body>
+    <div id="test" onclick="testScript()"></div>
+    <input type="text" id="textruta" />
+    <input type="button" value="Knapp" onmouseup="testScript()" />
+
+  </body>
+
+</html>

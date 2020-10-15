@@ -1,0 +1,6 @@
+/* Dett gäller om screenen är maximalt 600px bred */
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+}

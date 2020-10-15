@@ -11,18 +11,6 @@ body {
   padding: 10px;
 }
 
-/* id för en
-"sak" som har vissa egenskaper */
-#kvadrat {
-  width: 30px;
-  height: 30px;
-  color: red;
-  background-color: yellow;
-  border-style: dotted;
-  border-width: 5px;
-  border-color: grey;
-}
-
 /* Egendifinierade klasser */
 .container {
   background-color: black;
