@@ -1,0 +1,17 @@
+table {
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}
+
+tr {
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+}
+
+td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: yellow;
+}

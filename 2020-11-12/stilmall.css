@@ -1,0 +1,15 @@
+#svart {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#bla {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+#gron {
+  background-color: blue;
+}

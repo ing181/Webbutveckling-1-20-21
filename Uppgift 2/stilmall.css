@@ -79,7 +79,21 @@ body {
   padding-right: 5px;
 }
 
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#dottcontainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 4px;
+}
 
 /* ett span element har ingen
 höjd eller bredd. Följer bara med i flödet
