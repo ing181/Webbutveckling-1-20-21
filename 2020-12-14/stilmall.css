@@ -1,0 +1,50 @@
+/*
+.left {
+  background-color: green;
+}
+*/
+body {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.over {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  padding-left: 20px;
+  background-color: blue;
+}
+
+.left {
+  padding-right: 20px;
+  background-color: yellow;
+}
+
+.under {
+  border-width: medium;
+  border-style: dotted;
+  border-color: black;
+}
+
+.viktigtext {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 14;
+}
+
+.greentext {
+  color: green;
+}
+
+.redtext {
+  color: red;
+}
