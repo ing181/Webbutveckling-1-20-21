@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.over {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  background-color: yellow;
+  padding-right: 20px;
+}
+
+.right {
+  padding-left: 20px;
+}
+
+#viktigt {
+  background-color: blue;
+}
+
+.viktigtext {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 14;
+}
+
+.greentext {
+  color: green;
+}
+
+.redtext {
+  color: red;
+}
