@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stilmall.css">
+    <title>Meny</title>
+
+    <script>
+      function openMenu() {
+        document.getElementById("dropdown-content").style.visibility = "visible";
+      }
+
+      function closeMenu() {
+        document.getElementById("dropdown-content").style.visibility = "hidden";
+      }
+    </script>
+
+  </head>
+
+  <body onload="closeMenu()">
+
+    <div class="dropdown" onmouseover="openMenu()" onmouseout="closeMenu()">
+      <span class="item">Här finns vi</span>
+      <div class="dropdown-content" id="dropdown-content">
+        <span class="item">London</span>
+        <span class="item">Paris</span>
+        <span class="item">Ingared</span>
+      </div>
+    </div>
+
+
+  </body>
+
+</html>

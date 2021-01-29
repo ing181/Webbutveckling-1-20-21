@@ -1,0 +1,39 @@
+.dropdown {
+  /*
+inline är helt utan bredd o. höjd
+positionen är "i flödet"
+inline-block följer med i flödet, men man kan difiniera
+bredd o. höjd
+https://www.w3schools.com/cssref/pr_class_display.asp
+*/
+  /* inline-block är ofta ett bra valför menyn.
+Då följer den med i flödet och det går definiera
+en bredd och höjd */
+  display: inline-block;
+  /*
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /*
+Är placerad i sin normala position.
+Positionen är den den får enligt var den
+ligger i HTML-koden. I detta fall ligger den direk
+under "body"
+https://www.w3schools.com/css/tryit.asp?filename=trycss_position_relative
+*/
+  position: relative;
+}
+
+.dropdown-content {
+  /*  display: none; */
+  /* Placeras relativt sin närmaste "förälder",
+  dropdown */
+  position: absolute;
+}
+
+/*
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+*/
