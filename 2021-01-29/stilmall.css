@@ -6,7 +6,13 @@ inline-block följer med i flödet, men man kan difiniera
 bredd o. höjd
 https://www.w3schools.com/cssref/pr_class_display.asp
 */
+  /* inline-block är ofta ett bra valför menyn.
+Då följer den med i flödet och det går definiera
+en bredd och höjd */
   display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
   /*
 Är placerad i sin normala position.
 Positionen är den den får enligt var den
