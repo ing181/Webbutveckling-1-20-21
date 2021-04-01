@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stilmall.css">
+    <title>JavaScript exempel</title>
+    <script>
+      // variabeln v har värdet "test"
+      function testFunktion(v) {
+        alert(v); // en dialogruta med texten "test"
+        // och en OK knapp för att stänga dialogrutan
+        // dyker upp.
+        // Exempel på en inbygd funktion i javascript. Det finns massor
+        // Atom känner till alla tror jag.
+        var d = new Date();
+        // Här skrivs datum ut i diven "test2"
+        // document.getElementById("id") är användbart för att
+        // hitta saker på sidan. Hitta på ett unikt id så
+        // kommer javascriptet åt.
+        document.getElementById("test2").innerHTML = d;
+        // Miniräknare
+        // Här får variabeln "nr1" innehållet i textrutan "txt"
+        var nr1 = document.getElementById("addera1").value;
+        var nnr1 = Number(nr1); // Eftersom datatyp inte deklareras måste vi
+        // tala om för javacriptet att det är sifror som går att räkna med.
+
+        var nr2 = document.getElementById("addera2").value;
+        var nnr2 = Number(nr2);
+
+        var summa = nnr1 + nnr2;
+
+        // Och svaret skrivs ut i diven "test3"
+        document.getElementById("test3").innerHTML = "Summan blir " + summa;
+
+
+      }
+    </script>
+  </head>
+
+  <body>
+
+
+    <!-- DOM Document Object Model -->
+    <!-- Om händelsen "onclick" inträffar, alltså användaren
+    klickar inne i diven "test", skickas det egna (this) id till
+    funktionen "testFunktion()"
+    "test" kommer att skickas. Eftersom id = test
+  -->
+    <div id="test" onclick="testFunktion(this.id)">Klicka här</div>
+
+    <div id="test2">TEST 2</div>
+
+    <input type="text" id="addera1">
+    <input type="text" id="addera2">
+
+    <div id="test3">Här kommer summan</div>
+
+  </body>
+
+</html>
