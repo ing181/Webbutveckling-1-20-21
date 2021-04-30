@@ -1,7 +1,9 @@
-.test {
-  color: red;
+#colordiv {
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
 
-.test:hover {
-  color: green;
+#colordiv:hover {
+  background-color: green;
 }
